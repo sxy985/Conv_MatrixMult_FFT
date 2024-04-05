@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="180495000000fs"></ZoomStartTime>
+      <ZoomEndTime time="198805000001fs"></ZoomEndTime>
+      <Cursor1Time time="183845000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="252"></NameColumnWidth>
+      <ValueColumnWidth column_width="81"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="46" />
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/pooling_mode" type="logic">
+      <obj_property name="ElementShortName">pooling_mode</obj_property>
+      <obj_property name="ObjectShortName">pooling_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/filter_size" type="array">
+      <obj_property name="ElementShortName">filter_size[3:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_size[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/x_array" type="array">
+      <obj_property name="ElementShortName">x_array[575:0]</obj_property>
+      <obj_property name="ObjectShortName">x_array[575:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/pooling_valid" type="logic">
+      <obj_property name="ElementShortName">pooling_valid</obj_property>
+      <obj_property name="ObjectShortName">pooling_valid</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/pooling_valid_s" type="logic">
+      <obj_property name="ElementShortName">pooling_valid_s</obj_property>
+      <obj_property name="ObjectShortName">pooling_valid_s</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/pooling_out_valid" type="logic">
+      <obj_property name="ElementShortName">pooling_out_valid</obj_property>
+      <obj_property name="ObjectShortName">pooling_out_valid</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/pooling_out_valid_s" type="logic">
+      <obj_property name="ElementShortName">pooling_out_valid_s</obj_property>
+      <obj_property name="ObjectShortName">pooling_out_valid_s</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/pooling_out" type="array">
+      <obj_property name="ElementShortName">pooling_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pooling_out[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/pooling_flag" type="array">
+      <obj_property name="ElementShortName">pooling_flag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pooling_flag[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/x_array_pre" type="array">
+      <obj_property name="ElementShortName">x_array_pre[0:7][71:0]</obj_property>
+      <obj_property name="ObjectShortName">x_array_pre[0:7][71:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/pooling_out_valid_pre" type="array">
+      <obj_property name="ElementShortName">pooling_out_valid_pre[0:7]</obj_property>
+      <obj_property name="ObjectShortName">pooling_out_valid_pre[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/pooling_out_valid_s_pre" type="array">
+      <obj_property name="ElementShortName">pooling_out_valid_s_pre[0:7]</obj_property>
+      <obj_property name="ObjectShortName">pooling_out_valid_s_pre[0:7]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/pooling_out_pre" type="array">
+      <obj_property name="ElementShortName">pooling_out_pre[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">pooling_out_pre[0:7][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/pooling_out_flag_pre" type="array">
+      <obj_property name="ElementShortName">pooling_out_flag_pre[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">pooling_out_flag_pre[0:7][7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/FILTER_MAX" type="array">
+      <obj_property name="ElementShortName">FILTER_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FILTER_MAX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/FILTER_MAX_BIT" type="array">
+      <obj_property name="ElementShortName">FILTER_MAX_BIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FILTER_MAX_BIT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/CONV_ARALLEPL_DEEP" type="array">
+      <obj_property name="ElementShortName">CONV_ARALLEPL_DEEP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CONV_ARALLEPL_DEEP[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_conv_t/\Convs[0].u_conv /conv_flag" type="logic">
+      <obj_property name="ElementShortName">conv_flag</obj_property>
+      <obj_property name="ObjectShortName">conv_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_conv_t/\Convs[0].u_conv /pooling_flag" type="logic">
+      <obj_property name="ElementShortName">pooling_flag</obj_property>
+      <obj_property name="ObjectShortName">pooling_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /pooling_mode" type="logic">
+      <obj_property name="ElementShortName">pooling_mode</obj_property>
+      <obj_property name="ObjectShortName">pooling_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /filter_size" type="array">
+      <obj_property name="ElementShortName">filter_size[3:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_size[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /x_array" type="array">
+      <obj_property name="ElementShortName">x_array[71:0]</obj_property>
+      <obj_property name="ObjectShortName">x_array[71:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_conv_t/\Convs[0].u_conv /pooling_flag" type="logic">
+      <obj_property name="ElementShortName">pooling_flag</obj_property>
+      <obj_property name="ObjectShortName">pooling_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/filter_size" type="array">
+      <obj_property name="ElementShortName">filter_size[3:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_size[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /pooling_valid" type="logic">
+      <obj_property name="ElementShortName">pooling_valid</obj_property>
+      <obj_property name="ObjectShortName">pooling_valid</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /pooling_valid_s" type="logic">
+      <obj_property name="ElementShortName">pooling_valid_s</obj_property>
+      <obj_property name="ObjectShortName">pooling_valid_s</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /pooling_out_valid" type="logic">
+      <obj_property name="ElementShortName">pooling_out_valid</obj_property>
+      <obj_property name="ObjectShortName">pooling_out_valid</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /pooling_out_valid_s" type="logic">
+      <obj_property name="ElementShortName">pooling_out_valid_s</obj_property>
+      <obj_property name="ObjectShortName">pooling_out_valid_s</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /AveragePooling" type="array">
+      <obj_property name="ElementShortName">AveragePooling[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AveragePooling[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /MaxPooling" type="array">
+      <obj_property name="ElementShortName">MaxPooling[7:0]</obj_property>
+      <obj_property name="ObjectShortName">MaxPooling[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /out_sum" type="array">
+      <obj_property name="ElementShortName">out_sum[11:0]</obj_property>
+      <obj_property name="ObjectShortName">out_sum[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /pooling_out" type="array">
+      <obj_property name="ElementShortName">pooling_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pooling_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /pooling_flag" type="array">
+      <obj_property name="ElementShortName">pooling_flag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pooling_flag[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /div2mul" type="array">
+      <obj_property name="ElementShortName">div2mul[16:0]</obj_property>
+      <obj_property name="ObjectShortName">div2mul[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /AveragePooling_w" type="array">
+      <obj_property name="ElementShortName">AveragePooling_w[32:0]</obj_property>
+      <obj_property name="ObjectShortName">AveragePooling_w[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /out_max" type="array">
+      <obj_property name="ElementShortName">out_max[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_max[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /FILTER_MAX" type="array">
+      <obj_property name="ElementShortName">FILTER_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FILTER_MAX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_pooling_t/\Pooling[0].u_pooling /FILTER_MAX_BIT" type="array">
+      <obj_property name="ElementShortName">FILTER_MAX_BIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FILTER_MAX_BIT[31:0]</obj_property>
+   </wvobject>
+</wave_config>
