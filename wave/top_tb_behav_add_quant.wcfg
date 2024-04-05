@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="300000000001fs"></ZoomEndTime>
+      <Cursor1Time time="250455000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="236"></NameColumnWidth>
+      <ValueColumnWidth column_width="99"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="61" />
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/map_width" type="array">
+      <obj_property name="ElementShortName">map_width[9:0]</obj_property>
+      <obj_property name="ObjectShortName">map_width[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/padding_mode" type="array">
+      <obj_property name="ElementShortName">padding_mode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">padding_mode[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/filter_size" type="array">
+      <obj_property name="ElementShortName">filter_size[3:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_size[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/stride" type="array">
+      <obj_property name="ElementShortName">stride[7:0]</obj_property>
+      <obj_property name="ObjectShortName">stride[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/bias" type="array">
+      <obj_property name="ElementShortName">bias[95:0]</obj_property>
+      <obj_property name="ObjectShortName">bias[95:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/add_quant" type="logic">
+      <obj_property name="ElementShortName">add_quant</obj_property>
+      <obj_property name="ObjectShortName">add_quant</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/start_add" type="logic">
+      <obj_property name="ElementShortName">start_add</obj_property>
+      <obj_property name="ObjectShortName">start_add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/add_req" type="logic">
+      <obj_property name="ElementShortName">add_req</obj_property>
+      <obj_property name="ObjectShortName">add_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/in_channel" type="array">
+      <obj_property name="ElementShortName">in_channel[127:0]</obj_property>
+      <obj_property name="ObjectShortName">in_channel[127:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/quant_flag" type="array">
+      <obj_property name="ElementShortName">quant_flag[15:0]</obj_property>
+      <obj_property name="ObjectShortName">quant_flag[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/map_2pad" type="array">
+      <obj_property name="ElementShortName">map_2pad[9:0]</obj_property>
+      <obj_property name="ObjectShortName">map_2pad[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/map_2pad_f" type="array">
+      <obj_property name="ElementShortName">map_2pad_f[9:0]</obj_property>
+      <obj_property name="ObjectShortName">map_2pad_f[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/OUT_MAP_WIDTH" type="array">
+      <obj_property name="ElementShortName">OUT_MAP_WIDTH[9:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_MAP_WIDTH[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/h_size" type="array">
+      <obj_property name="ElementShortName">h_size[15:0]</obj_property>
+      <obj_property name="ObjectShortName">h_size[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/v_size" type="array">
+      <obj_property name="ElementShortName">v_size[15:0]</obj_property>
+      <obj_property name="ObjectShortName">v_size[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/out_sum" type="array">
+      <obj_property name="ElementShortName">out_sum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out_sum[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/out_sum_s" type="array">
+      <obj_property name="ElementShortName">out_sum_s[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out_sum_s[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/Mo" type="array">
+      <obj_property name="ElementShortName">Mo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mo[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/Zx" type="array">
+      <obj_property name="ElementShortName">Zx[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Zx[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/Zw" type="array">
+      <obj_property name="ElementShortName">Zw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Zw[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/Za" type="array">
+      <obj_property name="ElementShortName">Za[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Za[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/qb" type="array">
+      <obj_property name="ElementShortName">qb[15:0]</obj_property>
+      <obj_property name="ObjectShortName">qb[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/sum_qwab" type="array">
+      <obj_property name="ElementShortName">sum_qwab[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_qwab[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/sum_qwab_s" type="array">
+      <obj_property name="ElementShortName">sum_qwab_s[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_qwab_s[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/MoP" type="array">
+      <obj_property name="ElementShortName">MoP[40:0]</obj_property>
+      <obj_property name="ObjectShortName">MoP[40:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/MoP_s" type="array">
+      <obj_property name="ElementShortName">MoP_s[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MoP_s[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/qa" type="array">
+      <obj_property name="ElementShortName">qa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qa[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/qa_s" type="array">
+      <obj_property name="ElementShortName">qa_s[15:0]</obj_property>
+      <obj_property name="ObjectShortName">qa_s[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/add_sum_quant_valid" type="logic">
+      <obj_property name="ElementShortName">add_sum_quant_valid</obj_property>
+      <obj_property name="ObjectShortName">add_sum_quant_valid</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/start_add_d0" type="logic">
+      <obj_property name="ElementShortName">start_add_d0</obj_property>
+      <obj_property name="ObjectShortName">start_add_d0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/start_add_up" type="logic">
+      <obj_property name="ElementShortName">start_add_up</obj_property>
+      <obj_property name="ObjectShortName">start_add_up</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/h_cnt" type="array">
+      <obj_property name="ElementShortName">h_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">h_cnt[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/v_cnt" type="array">
+      <obj_property name="ElementShortName">v_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">v_cnt[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/h_v_cnt_en" type="logic">
+      <obj_property name="ElementShortName">h_v_cnt_en</obj_property>
+      <obj_property name="ObjectShortName">h_v_cnt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/add_req_shift" type="array">
+      <obj_property name="ElementShortName">add_req_shift[6:0]</obj_property>
+      <obj_property name="ObjectShortName">add_req_shift[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/add_sum_valid" type="logic">
+      <obj_property name="ElementShortName">add_sum_valid</obj_property>
+      <obj_property name="ObjectShortName">add_sum_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/add_sum_quant_valid" type="logic">
+      <obj_property name="ElementShortName">add_sum_quant_valid</obj_property>
+      <obj_property name="ObjectShortName">add_sum_quant_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/add_sum" type="array">
+      <obj_property name="ElementShortName">add_sum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">add_sum[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/add_sum_quant" type="array">
+      <obj_property name="ElementShortName">add_sum_quant[15:0]</obj_property>
+      <obj_property name="ObjectShortName">add_sum_quant[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/add_quant_d0" type="logic">
+      <obj_property name="ElementShortName">add_quant_d0</obj_property>
+      <obj_property name="ObjectShortName">add_quant_d0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/add_quant_up" type="logic">
+      <obj_property name="ElementShortName">add_quant_up</obj_property>
+      <obj_property name="ObjectShortName">add_quant_up</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/add_sum_quant_valid_d0" type="logic">
+      <obj_property name="ElementShortName">add_sum_quant_valid_d0</obj_property>
+      <obj_property name="ObjectShortName">add_sum_quant_valid_d0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/add_sum_quant_valid_down" type="logic">
+      <obj_property name="ElementShortName">add_sum_quant_valid_down</obj_property>
+      <obj_property name="ObjectShortName">add_sum_quant_valid_down</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/quant_en" type="logic">
+      <obj_property name="ElementShortName">quant_en</obj_property>
+      <obj_property name="ObjectShortName">quant_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/out_valid" type="logic">
+      <obj_property name="ElementShortName">out_valid</obj_property>
+      <obj_property name="ObjectShortName">out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/out_result" type="array">
+      <obj_property name="ElementShortName">out_result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out_result[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/DATA_WIDTH_MID" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH_MID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH_MID[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/MAP_WIDTH_MAX" type="array">
+      <obj_property name="ElementShortName">MAP_WIDTH_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAP_WIDTH_MAX[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/MAP_WIDTH_MAX_BIT" type="array">
+      <obj_property name="ElementShortName">MAP_WIDTH_MAX_BIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAP_WIDTH_MAX_BIT[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/PADDING_MAX" type="array">
+      <obj_property name="ElementShortName">PADDING_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PADDING_MAX[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/PADDING_MAX_BIT" type="array">
+      <obj_property name="ElementShortName">PADDING_MAX_BIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PADDING_MAX_BIT[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/FILTER_MAX" type="array">
+      <obj_property name="ElementShortName">FILTER_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FILTER_MAX[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/FILTER_MAX_BIT" type="array">
+      <obj_property name="ElementShortName">FILTER_MAX_BIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FILTER_MAX_BIT[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/BIAS_WIDTH" type="array">
+      <obj_property name="ElementShortName">BIAS_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BIAS_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/BIAS_NUM" type="array">
+      <obj_property name="ElementShortName">BIAS_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BIAS_NUM[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/ADD_LENGTH" type="array">
+      <obj_property name="ElementShortName">ADD_LENGTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD_LENGTH[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/u_add_quant/DELAY_STAGE" type="array">
+      <obj_property name="ElementShortName">DELAY_STAGE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DELAY_STAGE[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="24960000001fs"></ZoomEndTime>
+      <Cursor1Time time="175100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="209"></NameColumnWidth>
+      <ValueColumnWidth column_width="85"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="56" />
+   <wvobject fp_name="/top_tb/u_top/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_fifo_wr_en" type="logic">
+      <obj_property name="ElementShortName">matrix_fifo_wr_en</obj_property>
+      <obj_property name="ObjectShortName">matrix_fifo_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_in_a" type="array">
+      <obj_property name="ElementShortName">matrix_in_a[63:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_in_a[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_in_b" type="array">
+      <obj_property name="ElementShortName">matrix_in_b[63:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_in_b[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_a_fifo_out" type="array">
+      <obj_property name="ElementShortName">matrix_a_fifo_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_a_fifo_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_b_fifo_out" type="array">
+      <obj_property name="ElementShortName">matrix_b_fifo_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_b_fifo_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_a_fifo_in" type="array">
+      <obj_property name="ElementShortName">matrix_a_fifo_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_a_fifo_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_b_fifo_in" type="array">
+      <obj_property name="ElementShortName">matrix_b_fifo_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_b_fifo_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">matrix_fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">matrix_fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_a_fifo_full" type="array">
+      <obj_property name="ElementShortName">matrix_a_fifo_full[0:1]</obj_property>
+      <obj_property name="ObjectShortName">matrix_a_fifo_full[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_b_fifo_full" type="array">
+      <obj_property name="ElementShortName">matrix_b_fifo_full[0:1]</obj_property>
+      <obj_property name="ObjectShortName">matrix_b_fifo_full[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_a_fifo_empty" type="array">
+      <obj_property name="ElementShortName">matrix_a_fifo_empty[0:1]</obj_property>
+      <obj_property name="ObjectShortName">matrix_a_fifo_empty[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_b_fifo_empty" type="array">
+      <obj_property name="ElementShortName">matrix_b_fifo_empty[0:1]</obj_property>
+      <obj_property name="ObjectShortName">matrix_b_fifo_empty[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/start_matrix_pl" type="logic">
+      <obj_property name="ElementShortName">start_matrix_pl</obj_property>
+      <obj_property name="ObjectShortName">start_matrix_pl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_req" type="logic">
+      <obj_property name="ElementShortName">matrix_req</obj_property>
+      <obj_property name="ObjectShortName">matrix_req</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_in_a" type="array">
+      <obj_property name="ElementShortName">matrix_in_a[63:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_in_a[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_in_b" type="array">
+      <obj_property name="ElementShortName">matrix_in_b[63:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_in_b[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_out_a" type="array">
+      <obj_property name="ElementShortName">matrix_out_a[63:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_out_a[63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/matrix_out_b" type="array">
+      <obj_property name="ElementShortName">matrix_out_b[63:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_out_b[63:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_a[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_a /empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[0].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_MATRIX_BRAM_32BIT_512DEEP_b[1].u_FIFO_MATRIX_BRAM_32BIT_512DEEP_b /empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+</wave_config>

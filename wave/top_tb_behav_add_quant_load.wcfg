@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="168695000000fs"></ZoomStartTime>
+      <ZoomEndTime time="230845000001fs"></ZoomEndTime>
+      <Cursor1Time time="200045000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="209"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/top_tb/u_top/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/add_quant_fifo_wr_en" type="logic">
+      <obj_property name="ElementShortName">add_quant_fifo_wr_en</obj_property>
+      <obj_property name="ObjectShortName">add_quant_fifo_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/add_quant_fifo_in" type="array">
+      <obj_property name="ElementShortName">add_quant_fifo_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">add_quant_fifo_in[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/add_quant_fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">add_quant_fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">add_quant_fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/add_quant_fifo_out" type="array">
+      <obj_property name="ElementShortName">add_quant_fifo_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">add_quant_fifo_out[127:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/add_quant_fifo_full" type="array">
+      <obj_property name="ElementShortName">add_quant_fifo_full[0:3]</obj_property>
+      <obj_property name="ObjectShortName">add_quant_fifo_full[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/add_quant_fifo_empty" type="array">
+      <obj_property name="ElementShortName">add_quant_fifo_empty[0:3]</obj_property>
+      <obj_property name="ObjectShortName">add_quant_fifo_empty[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/start_add_quant_pl" type="logic">
+      <obj_property name="ElementShortName">start_add_quant_pl</obj_property>
+      <obj_property name="ObjectShortName">start_add_quant_pl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/add_quant_fifo_out" type="array">
+      <obj_property name="ElementShortName">add_quant_fifo_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">add_quant_fifo_out[127:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/quant_flag" type="array">
+      <obj_property name="ElementShortName">quant_flag[15:0]</obj_property>
+      <obj_property name="ObjectShortName">quant_flag[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[0].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[0].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[0].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[0].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[0].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[0].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[0].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[0].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[0].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[1].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[1].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[1].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[1].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[1].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[1].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[1].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[1].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/\FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[1].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP /empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+</wave_config>
