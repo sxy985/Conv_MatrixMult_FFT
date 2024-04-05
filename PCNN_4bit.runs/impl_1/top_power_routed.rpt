@@ -1,0 +1,232 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date             : Sun Jul 30 11:00:30 2023
+| Host             : LAPTOP-UFGHG504 running 64-bit major release  (build 9200)
+| Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
+| Design           : top
+| Device           : xc7z020clg400-2
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 0.351        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 0.241        |
+| Device Static (W)        | 0.110        |
+| Effective TJA (C/W)      | 11.5         |
+| Max Ambient (C)          | 81.0         |
+| Junction Temperature (C) | 29.0         |
+| Confidence Level         | Medium       |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Clocks                   |     0.098 |        3 |       --- |             --- |
+| Slice Logic              |     0.036 |    66142 |       --- |             --- |
+|   LUT as Logic           |     0.027 |    18326 |     53200 |           34.45 |
+|   CARRY4                 |     0.005 |     3524 |     13300 |           26.50 |
+|   Register               |     0.003 |    28651 |    106400 |           26.93 |
+|   LUT as Shift Register  |     0.001 |      578 |     17400 |            3.32 |
+|   F7/F8 Muxes            |    <0.001 |      192 |     53200 |            0.36 |
+|   LUT as Distributed RAM |    <0.001 |       12 |     17400 |            0.07 |
+|   BUFG                   |    <0.001 |        1 |        32 |            3.13 |
+|   Others                 |     0.000 |     6436 |       --- |             --- |
+| Signals                  |     0.046 |    43477 |       --- |             --- |
+| Block RAM                |     0.010 |     11.5 |       140 |            8.21 |
+| DSPs                     |     0.005 |      155 |       220 |           70.45 |
+| I/O                      |     0.047 |       18 |       125 |           14.40 |
+| Static Power             |     0.110 |          |           |                 |
+| Total                    |     0.351 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       1.000 |     0.202 |       0.193 |      0.009 |
+| Vccaux    |       1.800 |     0.013 |       0.002 |      0.011 |
+| Vcco33    |       3.300 |     0.014 |       0.013 |      0.001 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.001 |       0.000 |      0.001 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccpint   |       1.000 |     0.018 |       0.000 |      0.018 |
+| Vccpaux   |       1.800 |     0.010 |       0.000 |      0.010 |
+| Vccpll    |       1.800 |     0.003 |       0.000 |      0.003 |
+| Vcco_ddr  |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco_mio0 |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco_mio1 |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                               | Action                                                                                                             |
++-----------------------------+------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                      |                                                                                                                    |
+| Clock nodes activity        | Medium     | More than 5% of clocks are missing user specification | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Medium     | More than 5% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes        | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | High       | Device models are Production                          |                                                                                                                    |
+|                             |            |                                                       |                                                                                                                    |
+| Overall confidence level    | Medium     |                                                       |                                                                                                                    |
++-----------------------------+------------+-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+------------------------+
+| Ambient Temp (C)      | 25.0                   |
+| ThetaJA (C/W)         | 11.5                   |
+| Airflow (LFM)         | 250                    |
+| Heat Sink             | none                   |
+| ThetaSA (C/W)         | 0.0                    |
+| Board Selection       | medium (10"x10")       |
+| # of Board Layers     | 8to11 (8 to 11 Layers) |
+| Board Temperature (C) | 25.0                   |
++-----------------------+------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------+---------+-----------------+
+| Clock | Domain  | Constraint (ns) |
++-------+---------+-----------------+
+| clk   | sys_clk |            10.0 |
++-------+---------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++------------------------------------------------------------------------------------+-----------+
+| Name                                                                               | Power (W) |
++------------------------------------------------------------------------------------+-----------+
+| top                                                                                |     0.241 |
+|   FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[0].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP |     0.002 |
+|     U0                                                                             |     0.002 |
+|       inst_fifo_gen                                                                |     0.002 |
+|   FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[1].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP |     0.002 |
+|     U0                                                                             |     0.002 |
+|       inst_fifo_gen                                                                |     0.002 |
+|   FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[2].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP |     0.002 |
+|     U0                                                                             |     0.002 |
+|       inst_fifo_gen                                                                |     0.002 |
+|   FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP[3].u_FIFO_ADD_QUANT_MAP_BRAM_32BIT_512DEEP |     0.002 |
+|     U0                                                                             |     0.002 |
+|       inst_fifo_gen                                                                |     0.002 |
+|   FIFO_MAP_BRAM_32BIT_512DEEP[0].u_FIFO_MAP_BRAM_32BIT_512DEEP                     |     0.002 |
+|     U0                                                                             |     0.002 |
+|       inst_fifo_gen                                                                |     0.002 |
+|   FIFO_MAP_BRAM_32BIT_512DEEP[1].u_FIFO_MAP_BRAM_32BIT_512DEEP                     |     0.002 |
+|     U0                                                                             |     0.002 |
+|       inst_fifo_gen                                                                |     0.002 |
+|   FIFO_WEIGHT_BRAM_32BIT_512DEEP[0].u_FIFO_WEIGHT_BRAN_32BIT_512DEEP               |     0.010 |
+|     U0                                                                             |     0.010 |
+|       inst_fifo_gen                                                                |     0.010 |
+|   u_Mul_Add_Tree                                                                   |     0.100 |
+|     ADDER_TREE_AD[0].u_AdderTree                                                   |     0.013 |
+|       AdderTree_a                                                                  |     0.006 |
+|       AdderTree_b                                                                  |     0.006 |
+|     ADDER_TREE_AD[1].u_AdderTree                                                   |     0.012 |
+|       AdderTree_a                                                                  |     0.006 |
+|       AdderTree_b                                                                  |     0.006 |
+|     ADDER_TREE_BD[0].u_AdderTree                                                   |     0.011 |
+|       AdderTree_a                                                                  |     0.004 |
+|       AdderTree_b                                                                  |     0.004 |
+|     ADDER_TREE_BD[1].u_AdderTree                                                   |     0.009 |
+|       AdderTree_a                                                                  |     0.004 |
+|       AdderTree_b                                                                  |     0.004 |
+|     ADDER_TREE_CD[0].u_AdderTree                                                   |     0.007 |
+|       AdderTree_a                                                                  |     0.003 |
+|       AdderTree_b                                                                  |     0.003 |
+|     ADDER_TREE_CD[1].u_AdderTree                                                   |     0.006 |
+|       AdderTree_a                                                                  |     0.003 |
+|       AdderTree_b                                                                  |     0.003 |
+|   u_add_quant                                                                      |     0.004 |
+|     u_AdderTree                                                                    |     0.002 |
+|   u_conv_t                                                                         |     0.005 |
+|     Convs[0].u_conv                                                                |     0.001 |
+|   u_matrix_multiplication                                                          |     0.005 |
+|   u_pooling_t                                                                      |     0.026 |
+|     Pooling[0].u_pooling                                                           |     0.003 |
+|       u_AverageTree                                                                |     0.002 |
+|     Pooling[1].u_pooling                                                           |     0.003 |
+|       u_AverageTree                                                                |     0.002 |
+|     Pooling[2].u_pooling                                                           |     0.003 |
+|       u_AverageTree                                                                |     0.002 |
+|     Pooling[3].u_pooling                                                           |     0.003 |
+|       u_AverageTree                                                                |     0.002 |
+|     Pooling[4].u_pooling                                                           |     0.003 |
+|       u_AverageTree                                                                |     0.002 |
+|     Pooling[5].u_pooling                                                           |     0.003 |
+|       u_AverageTree                                                                |     0.002 |
+|     Pooling[6].u_pooling                                                           |     0.003 |
+|       u_AverageTree                                                                |     0.002 |
+|     Pooling[7].u_pooling                                                           |     0.003 |
+|       u_AverageTree                                                                |     0.002 |
+|   u_ps_simulator                                                                   |     0.005 |
+|   u_weight_load                                                                    |     0.010 |
+|   u_window_t                                                                       |     0.011 |
+|     Windows_t[0].u_window                                                          |     0.001 |
+|     Windows_t[1].u_window                                                          |     0.001 |
+|     Windows_t[2].u_window                                                          |     0.001 |
+|     Windows_t[3].u_window                                                          |     0.001 |
+|     Windows_t[4].u_window                                                          |     0.001 |
+|     Windows_t[5].u_window                                                          |     0.001 |
+|     Windows_t[6].u_window                                                          |     0.001 |
+|     Windows_t[7].u_window                                                          |     0.001 |
++------------------------------------------------------------------------------------+-----------+
+
+

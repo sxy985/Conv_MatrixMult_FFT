@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="DSP48E1_AaDmB_2clk_synth_1" LaunchDir="C:/Users/IC_1101/Desktop/PCNN_4bit/PCNN_4bit/PCNN_4bit.runs/DSP48E1_AaDmB_2clk_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
